@@ -15,20 +15,67 @@
 
   /* Set a specific height */
   height: 100%;
- 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  
+  }
+.text-box{
+	height: 600px;
+	padding: 50px;
 }
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+#header{
+ position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+
+
 </style>
 
 
 <img src="https://s3.amazonaws.com/dsg.files.app.content.prod/gereports/wp-content/uploads/2016/12/09224351/getty_736908694773432459.jpg" width="100%">
 <div class="parallax"></div>
-  
+
+<body>
+<h1 id="header"><span style="text-decoration: underline; color: #ffffff; background-color: #000080;"><strong>&nbsp;Space Pollution&nbsp;</strong></span></h1>
+<h1 align="center">
+<div class="parallax"></div>
+<div class="col-lg-12 text-box text-center">
+
+<style>
+h1 {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+h1 {
+  font-family: OCR A Std, monospace;
+}
+
+</style>
+
+</div>
+</body>
+
+
+
 </body>
 </html>
 
